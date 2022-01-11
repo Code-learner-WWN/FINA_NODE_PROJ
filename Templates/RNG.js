@@ -1,1 +1,3 @@
-exports.Rng = Math.floor(Math.random(21));
+exports.Rng = function () {
+    return Math.floor(Math.random() * 21);
+};
